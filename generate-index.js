@@ -25,6 +25,7 @@ allDirs.forEach(dir => {
 <head>
   <meta charset="UTF-8">
   <title>Lehrmaterial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
     body {
       height: 100vh;
@@ -51,7 +52,7 @@ allDirs.forEach(dir => {
     .directory {
       font-weight: bold;
       color:rgb(154, 154, 154);
-      font-family: consolas, monospace;
+      font-family: Lucida Console, Monaco, monospace;
       background: rgba(255, 255, 255, 0.5);
       border-radius: 5px;
     }
